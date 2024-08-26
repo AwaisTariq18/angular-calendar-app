@@ -1,0 +1,32 @@
+.dialog-content {
+    padding: 30px 30px 20px;
+    .form-field {
+      width: 100%;
+    }
+    .error {
+      color: red;
+    }
+  }
+  
+  .submit-btn {
+    color : white;
+    &.add-btn {
+      background-color: #33ffda;
+  
+      &:hover {
+        background-color: #33ffda;
+      }
+    }
+  
+    &.edit-btn {
+      background-color: #f44336;
+  
+      &:hover {
+        background-color: #f44336;
+      }
+    }
+  }
+  .del-btn {
+    background-color: #f44336;
+    color : white;
+  }
